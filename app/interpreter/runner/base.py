@@ -7,4 +7,4 @@ class BaseRunner(ABC):
 
     @abstractmethod
     def run(self, interpreter: Interpreter) -> str:
-        pass
+        raise NotImplementedError
